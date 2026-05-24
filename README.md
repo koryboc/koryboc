@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0f1a,50:1a1b2e,100:2a1b3d&height=180&section=header&text=koryboc&fontSize=72&fontColor=c792ea&fontAlignY=48&animation=fadeIn&desc=Roy%20Bock&descAlignY=70&descColor=7aa2f7&descSize=20" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=c792ea&center=true&vCenter=true&width=640&lines=Open+Source+Software+Engineer;Linux+tooling+%E2%80%A2+automation+%E2%80%A2+optimization;Correctness+is+non-negotiable.;Performance+is+still+maximized.;I+find+bugs.+I+fix+bugs.;KDE+Plasma+%E2%80%A2+Wayland+%E2%80%A2+Manjaro" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=c792ea&center=true&vCenter=true&width=640&lines=Open+Source+Software+Engineer;Linux+tooling+%E2%80%A2+automation+%E2%80%A2+optimization;Correctness+is+non-negotiable.;Performance+is+still+maximized.;I+find+bugs.+I+fix+bugs.;Linux+%E2%80%A2+KDE+Plasma+%E2%80%A2+Wayland;I speak Windows fluently. I just refuse to." alt="Typing SVG"/>
 </a>
 
 <br/>
