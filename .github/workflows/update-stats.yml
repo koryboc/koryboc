@@ -2,7 +2,7 @@ name: Update Stats
 
 on:
   schedule:
-    - cron: "0 4 * * *"   # daily at 04:00 UTC
+    - cron: "0 4 * * *"
   workflow_dispatch:
 
 jobs:
@@ -15,43 +15,24 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Generate stats card
-        uses: anuraghazra/github-readme-stats@master
+        uses: lowlighter/metrics@latest
         with:
-          username: koryboc
-          output_file: generated/stats.svg
-          theme: tokyonight
-          bg_color: "0d0f1a"
-          border_color: "2a1b3d"
-          title_color: "c792ea"
-          icon_color: "7aa2f7"
-          text_color: "a9b1d6"
-          ring_color: "c792ea"
-          show_icons: true
-          include_all_commits: true
-          count_private: true
-        env:
-          INPUT_GITHUB_TOKEN: ${{ secrets.STATS_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN }}
+          filename: generated/stats.svg
+          user: koryboc
+          template: classic
+          base: header, activity, community, repositories
+          config_display: column
+          config_timezone: Europe/Berlin
 
       - name: Generate top languages card
-        uses: anuraghazra/github-readme-stats@master
+        uses: lowlighter/metrics@latest
         with:
-          username: koryboc
-          output_file: generated/langs.svg
-          card_type: top-langs
-          layout: compact
-          theme: tokyonight
-          bg_color: "0d0f1a"
-          border_color: "2a1b3d"
-          title_color: "c792ea"
-          text_color: "a9b1d6"
-          langs_count: 6
-        env:
-          INPUT_GITHUB_TOKEN: ${{ secrets.STATS_TOKEN }}
-
-      - name: Commit generated files
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add generated/
-          git diff --cached --quiet || git commit -m "chore: update stats"
-          git push
+          token: ${{ secrets.STATS_TOKEN }}
+          filename: generated/langs.svg
+          user: koryboc
+          template: classic
+          base: ""
+          plugin_languages: yes
+          plugin_languages_limit: 6
+          plugin_languages_analysis_timeout: 15
