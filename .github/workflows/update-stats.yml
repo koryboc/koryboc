@@ -1,0 +1,57 @@
+name: Update Stats
+
+on:
+  schedule:
+    - cron: "0 4 * * *"   # daily at 04:00 UTC
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate stats card
+        uses: anuraghazra/github-readme-stats@master
+        with:
+          username: koryboc
+          output_file: generated/stats.svg
+          theme: tokyonight
+          bg_color: "0d0f1a"
+          border_color: "2a1b3d"
+          title_color: "c792ea"
+          icon_color: "7aa2f7"
+          text_color: "a9b1d6"
+          ring_color: "c792ea"
+          show_icons: true
+          include_all_commits: true
+          count_private: true
+        env:
+          INPUT_GITHUB_TOKEN: ${{ secrets.STATS_TOKEN }}
+
+      - name: Generate top languages card
+        uses: anuraghazra/github-readme-stats@master
+        with:
+          username: koryboc
+          output_file: generated/langs.svg
+          card_type: top-langs
+          layout: compact
+          theme: tokyonight
+          bg_color: "0d0f1a"
+          border_color: "2a1b3d"
+          title_color: "c792ea"
+          text_color: "a9b1d6"
+          langs_count: 6
+        env:
+          INPUT_GITHUB_TOKEN: ${{ secrets.STATS_TOKEN }}
+
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add generated/
+          git diff --cached --quiet || git commit -m "chore: update stats"
+          git push
