@@ -17,7 +17,7 @@ jobs:
       - name: Generate stats card
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.STATS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           filename: generated/stats.svg
           user: koryboc
           template: classic
@@ -28,7 +28,7 @@ jobs:
       - name: Generate top languages card
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.STATS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           filename: generated/langs.svg
           user: koryboc
           template: classic
