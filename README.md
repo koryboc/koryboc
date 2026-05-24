@@ -14,17 +14,11 @@
 
 </div>
 
----
-
 <div align="center">
 
 ![whoami](./whoami.svg)
 
 </div>
-
----
-
-## Languages & Tools
 
 <div align="center">
 
@@ -47,17 +41,11 @@
 
 </div>
 
----
-
-## Stats
-
 <div align="center">
 
 <img src="https://streak-stats.demolab.com?user=koryboc&theme=tokyonight&background=0d0f1a&border=2a1b3d&ring=c792ea&fire=f7768e&currStreakLabel=c792ea&sideLabels=7aa2f7&currStreakNum=a9b1d6&sideNums=a9b1d6&dates=565f89" alt="GitHub Streak"/>
 
 </div>
-
----
 
 <div align="center">
 
