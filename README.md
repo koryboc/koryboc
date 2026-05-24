@@ -9,7 +9,7 @@
 <br/>
 
 [![Website](https://img.shields.io/badge/royalsoft.de-1a1b2e?style=for-the-badge&logo=firefox&logoColor=c792ea)](https://royalsoft.de)
-[![NuGet](https://img.shields.io/badge/NuGet-1a1b2e?style=for-the-badge&logo=nuget&logoColor=7aa2f7)](https://www.nuget.org/profiles/si13n7)
+[![NuGet](https://img.shields.io/badge/NuGet-1a1b2e?style=for-the-badge&logo=nuget&logoColor=7aa2f7)](https://www.nuget.org/profiles/Roydl)
 [![GitHub followers](https://img.shields.io/github/followers/koryboc?style=for-the-badge&color=c792ea&labelColor=1a1b2e&logo=github)](https://github.com/koryboc?tab=followers)
 
 </div>
