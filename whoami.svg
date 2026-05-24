@@ -1,0 +1,44 @@
+<svg width="540" viewBox="0 0 540 281" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>tux@manjaro ~ % cat /etc/whoami</title>
+<desc>Terminal output showing koryboc profile information</desc>
+<style>
+  svg { font-family: 'JetBrains Mono','Fira Code',monospace; font-size: 13px; }
+  .key  { fill: #7aa2f7; }
+  .sep  { fill: #565f89; }
+  .val  { fill: #a9b1d6; }
+  .dim  { fill: #565f89; }
+  .seg1 { fill: #c792ea; font-weight: 600; }
+  .seg2 { fill: #7aa2f7; }
+  .seg3 { fill: #9ece6a; }
+  .cmd  { fill: #c0caf5; }
+  .bar  { fill: #565f89; font-size: 11px; }
+</style>
+<rect width="540" height="281" rx="10" fill="#0d0f1a"/>
+<rect width="540" height="28" rx="10" fill="#1a1b2e"/>
+<rect y="14" width="520" height="14" fill="#1a1b2e"/>
+<text x="10" y="19" class="bar">👾</text>
+<circle cx="486" cy="14" r="5" fill="#9ece6a"/>
+<circle cx="504" cy="14" r="5" fill="#e0af68"/>
+<circle cx="522" cy="14" r="5" fill="#f7768e"/>
+<text x="270" y="19" text-anchor="middle" class="bar">tux@manjaro — ~</text>
+<rect x="0"   y="28" width="72" height="32" fill="#2d2f45"/>
+<rect x="72"  y="28" width="50" height="32" fill="#414868"/>
+<rect x="122" y="28" width="34" height="32" fill="#1e2030"/>
+<polygon points="72,28 82,44 72,60"    fill="#2d2f45"/>
+<polygon points="122,28 132,44 122,60" fill="#414868"/>
+<polygon points="156,28 166,44 156,60" fill="#1e2030"/>
+<text x="8"   y="49" class="seg2">manjaro</text>
+<text x="90"  y="49" class="seg1">tux</text>
+<text x="140" y="49" class="seg3">~</text>
+<text x="174" y="49" class="cmd">cat /etc/whoami</text>
+<line x1="16" y1="67" x2="524" y2="67" stroke="#1a1b2e" stroke-width="1"/>
+<text y="85"> <tspan x="16" class="key">Name</tspan>   <tspan x="80" class="sep">: </tspan><tspan class="val">Roy Bock   </tspan><tspan class="dim"># formerly Schroedel</tspan></text>
+<text y="107"><tspan x="16" class="key">Handle</tspan> <tspan x="80" class="sep">: </tspan><tspan class="val">koryboc   </tspan><tspan class="dim"># anagram of ROYBOCK — formerly si13n7</tspan></text>
+<text y="129"><tspan x="16" class="key">Origin</tspan> <tspan x="80" class="sep">: </tspan><tspan class="val">Self-taught, sparked by game modding &amp; OS optimization</tspan></text>
+<text y="151"><tspan x="16" class="key">OS</tspan>     <tspan x="80" class="sep">: </tspan><tspan class="val">Manjaro Linux  ·  KDE Plasma  ·  Wayland only.</tspan></text>
+<text y="173"><tspan x="16" class="key">Editors</tspan><tspan x="80" class="sep">: </tspan><tspan class="val">JetBrains IDEs  ·  Code - OSS</tspan></text>
+<text y="195"><tspan x="16" class="key">Focus</tspan>  <tspan x="80" class="sep">: </tspan><tspan class="val">Open source  ·  Linux tooling, automation &amp; optimization</tspan></text>
+<text x="96" y="217" class="val">Bug hunting across projects I care about</text>
+<text x="96" y="239" class="val">Deeply familiar with Linux and Windows internals</text>
+<text x="96" y="261" class="dim">(the latter against my will)</text>
+</svg>
