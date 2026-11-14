@@ -1,5 +1,5 @@
 <svg width="540" viewBox="0 0 540 281" role="img" xmlns="http://www.w3.org/2000/svg">
-<title>tux@manjaro ~ % cat /etc/whoami</title>
+<title>tux@cachyos ~ % cat /etc/whoami</title>
 <desc>Terminal output showing koryboc profile information</desc>
 <style>
   svg { font-family: 'JetBrains Mono','Fira Code',monospace; font-size: 13px; }
@@ -20,14 +20,14 @@
 <circle cx="486" cy="14" r="5" fill="#9ece6a"/>
 <circle cx="504" cy="14" r="5" fill="#e0af68"/>
 <circle cx="522" cy="14" r="5" fill="#f7768e"/>
-<text x="270" y="19" text-anchor="middle" class="bar">tux@manjaro — ~</text>
+<text x="270" y="19" text-anchor="middle" class="bar">tux@cachyos — ~</text>
 <rect x="0"   y="28" width="72" height="32" fill="#2d2f45"/>
 <rect x="72"  y="28" width="50" height="32" fill="#414868"/>
 <rect x="122" y="28" width="34" height="32" fill="#1e2030"/>
 <polygon points="72,28 82,44 72,60"    fill="#2d2f45"/>
 <polygon points="122,28 132,44 122,60" fill="#414868"/>
 <polygon points="156,28 166,44 156,60" fill="#1e2030"/>
-<text x="8"   y="49" class="seg2">manjaro</text>
+<text x="8"   y="49" class="seg2">cachyos</text>
 <text x="90"  y="49" class="seg1">tux</text>
 <text x="140" y="49" class="seg3">~</text>
 <text x="174" y="49" class="cmd">cat /etc/whoami</text>
@@ -35,7 +35,7 @@
 <text y="85"> <tspan x="16" class="key">Name</tspan>   <tspan x="80" class="sep">: </tspan><tspan class="val">Roy Bock   </tspan><tspan class="dim"># formerly Schroedel</tspan></text>
 <text y="107"><tspan x="16" class="key">Handle</tspan> <tspan x="80" class="sep">: </tspan><tspan class="val">koryboc   </tspan><tspan class="dim"># anagram of ROYBOCK — formerly si13n7</tspan></text>
 <text y="129"><tspan x="16" class="key">Origin</tspan> <tspan x="80" class="sep">: </tspan><tspan class="val">Self-taught, sparked by game modding &amp; OS optimization</tspan></text>
-<text y="151"><tspan x="16" class="key">OS</tspan>     <tspan x="80" class="sep">: </tspan><tspan class="val">Manjaro Linux  ·  KDE Plasma  ·  Wayland only.</tspan></text>
+<text y="151"><tspan x="16" class="key">OS</tspan>     <tspan x="80" class="sep">: </tspan><tspan class="val">CachyOS Linux  ·  KDE Plasma  ·  Wayland only.</tspan></text>
 <text y="173"><tspan x="16" class="key">Editors</tspan><tspan x="80" class="sep">: </tspan><tspan class="val">JetBrains IDEs  ·  Code - OSS</tspan></text>
 <text y="195"><tspan x="16" class="key">Focus</tspan>  <tspan x="80" class="sep">: </tspan><tspan class="val">Open source  ·  Linux tooling, automation &amp; optimization</tspan></text>
 <text x="96" y="217" class="val">Bug hunting across projects I care about</text>
