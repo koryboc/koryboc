@@ -35,7 +35,7 @@
 <text y="85"> <tspan x="16" class="key">Name</tspan>   <tspan x="80" class="sep">: </tspan><tspan class="val">Roy Bock   </tspan><tspan class="dim"># formerly Schroedel</tspan></text>
 <text y="107"><tspan x="16" class="key">Handle</tspan> <tspan x="80" class="sep">: </tspan><tspan class="val">koryboc   </tspan><tspan class="dim"># anagram of ROYBOCK — formerly si13n7</tspan></text>
 <text y="129"><tspan x="16" class="key">Origin</tspan> <tspan x="80" class="sep">: </tspan><tspan class="val">Self-taught, sparked by game modding &amp; OS optimization</tspan></text>
-<text y="151"><tspan x="16" class="key">OS</tspan>     <tspan x="80" class="sep">: </tspan><tspan class="val">CachyOS Linux  ·  KDE Plasma  ·  Wayland only.</tspan></text>
+<text y="151"><tspan x="16" class="key">OS</tspan>     <tspan x="80" class="sep">: </tspan><tspan class="val">CachyOS  ·  KDE Plasma  ·  Wayland only.</tspan></text>
 <text y="173"><tspan x="16" class="key">Editors</tspan><tspan x="80" class="sep">: </tspan><tspan class="val">JetBrains IDEs  ·  Code - OSS</tspan></text>
 <text y="195"><tspan x="16" class="key">Focus</tspan>  <tspan x="80" class="sep">: </tspan><tspan class="val">Open source  ·  Linux tooling, automation &amp; optimization</tspan></text>
 <text x="96" y="217" class="val">Bug hunting across projects I care about</text>
